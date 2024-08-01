@@ -1,0 +1,13 @@
+{
+  "imports": {
+    "@std/path": "jsr:@std/path@^1.0.2",
+    "hono": "jsr:@hono/hono@^4.5.3"
+  },
+  "tasks": {
+    "start": "deno run --allow-sys --allow-net --allow-env --env --watch main.ts"
+  },
+  "compilerOptions": {
+    "jsx": "precompile",
+    "jsxImportSource": "hono/jsx"
+  }
+}
