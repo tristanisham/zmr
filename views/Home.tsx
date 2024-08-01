@@ -17,9 +17,12 @@ export const Home: FC = () => {
       </head>
       <body style={""}>
         <main>
-          <h1 class={""}>
-            Easily fetch modules for the Zig Package manager
+          <h1>
+            Zig Module Resolver
           </h1>
+          <h2 class={""}>
+            Easily fetch modules for the Zig Package manager
+          </h2>
           <p style={""}>
             Use ZMR to easily find and download Zig modules using the Zig
             package manager.
